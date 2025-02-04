@@ -8,4 +8,5 @@ UserName = 'Rishu Jha'
 UserState = "InActive"
 UserCity = "Delhi"
 
-// It is now prefferable to use Var for good Practice in tranding js Code
+// It is now prefferable to use Var 
+// because of Block Scope Problem
