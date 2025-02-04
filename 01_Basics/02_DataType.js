@@ -8,7 +8,7 @@ let IsLoggedIn = true;
 let gender = null;
 let height = undefined;
 
-// Number
+// Number  holds value upto 2 to the power 52
 // BigInt
 // string
 // Boolean
