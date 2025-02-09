@@ -40,4 +40,10 @@ let IsName = Boolean(Name)
 
 let Name2 = "Avi";
 let IsName2 = Boolean(Name2)
+let Surname = " Jha";
+
 // console.log(IsName2); //true
+
+console.log(Name2 + Surname);  // Avi Jha
+
+
