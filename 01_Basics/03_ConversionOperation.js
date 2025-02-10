@@ -47,3 +47,4 @@ let Surname = " Jha";
 console.log(Name2 + Surname);  // Avi Jha
 
 
+
