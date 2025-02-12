@@ -8,6 +8,7 @@ let fname= 'Avi';
  console.log(fname);
  console.log(anotherName);
  
+// Heap is a data structure used to store Reference Type(Non-Primitive Type).
 // Heap Examples
 
 let user = {
