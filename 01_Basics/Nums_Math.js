@@ -26,15 +26,16 @@ console.log(Math);
 // console.log(Math.round(4.68)); // 5
 // console.log(Math.round(4.20)); // 4
 // Ceil Method Returns the Ceil(Highest) value of the given no.
-console.log(Math.ceil(4.20)); // 5
+// console.log(Math.ceil(4.20)); // 5
 
 // floor Method Returns the floor(Lowest) value of the given no.
-console.log(Math.floor(4.20)); // 4
-console.log(Math.floor(4.90)); // 4
+// console.log(Math.floor(4.20)); // 4
+// console.log(Math.floor(4.90)); // 4
 
 // Random  No it gives the Random Value between 0 and 1.
 
 
+console.log(((Math.floor(Math.random()*10)+1)));
 
 
 
