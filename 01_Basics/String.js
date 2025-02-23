@@ -35,5 +35,17 @@ const b = 'b';
     
  }
 
-const sentense = ' A quick brown fox jumps over the lazy dog.';
+const sentense = 'A quick brown fox jumps over the lazy dog.';
+
+// console.log(sentense.endsWith("fox")); //false
+// console.log(sentense.endsWith("Dog.")); // false
+// console.log(sentense.endsWith("dog.")); // True
+// console.log(sentense.includes("dog.")); // True
+// console.log(sentense.indexOf("dog.")); // 39
+// console.log(sentense.indexOf("A")); // 0
+// console.log(sentense.indexOf("f")); // 14
+console.log(sentense.replace("quick","kuicq")); //A kuicq brown fox jumps over the lazy dog.
+console.log(sentense); //A quick brown fox jumps over the lazy dog.
+
+
 
