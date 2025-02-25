@@ -47,8 +47,7 @@ const Animal = "cat";
 // console.log(sentense.replace("quick","kuicq")); //A kuicq brown fox jumps over the lazy dog.
 // console.log(sentense); //A quick brown fox jumps over the lazy dog.
 
-const str1 = 'I am born and brought up in bihar';
-const str2 = " I have very high expectation from Life."
+
 const areEqualInUpperCase = (str1, str2) =>
    str1.toUpperCase() === str2.toUpperCase();
  const areEqualInLowerCase = (str1, str2) =>
