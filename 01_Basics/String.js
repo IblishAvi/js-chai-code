@@ -35,7 +35,9 @@ const Animal = "cat";
     
 //  }
 
-// const sentense = 'A quick brown fox jumps over the lazy dog.';
+const sentense = 'The quick brown fox jumps over the lazy dog.';
+const str = "The quick brown fox jumps over the lazy dog.";
+
 
 // console.log(sentense.endsWith("fox")); //false
 // console.log(sentense.endsWith("Dog.")); // false
@@ -46,6 +48,15 @@ const Animal = "cat";
 // console.log(sentense.indexOf("f")); // 14
 // console.log(sentense.replace("quick","kuicq")); //A kuicq brown fox jumps over the lazy dog.
 // console.log(sentense); //A quick brown fox jumps over the lazy dog.
+// console.log(sentense.slice(31)); //The lazy dog.
+// console.log(sentense.slice(25,40)); // over the lazy 
+// console.log(sentense.slice(25,)); // over the lazy dog.
+// console.log(sentense.slice(25)); // over the lazy dog.
+// console.log(sentense.slice(-4)); //  dog.
+console.log(sentense.slice(40,40)); //  this will print nothing because the starting positon is equal to the index of the string and last position is always ignoured.
+
+
+
 
 
 const areEqualInUpperCase = (str1, str2) =>
@@ -71,8 +82,9 @@ const areEqualInUpperCase = (str1, str2) =>
  const s2 = new String("2 + 2"); // creates a String object
 //  console.log(eval(s1)); // returns the number 4
 //  console.log(eval(s2)); // returns the string "2 + 2"
-
-"😄".split(""); // ['\ud83d', '\ude04']; splits into two lone surrogates
+// console.log(
+//   "😄".split(""));
+ // ['\ud83d', '\ude04']; splits into two lone surrogates
 
 // "Backhand Index Pointing Right: Dark Skin Tone"
 [..."👉🏿"]; // ['👉', '🏿']
