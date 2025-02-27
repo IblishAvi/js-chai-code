@@ -17,7 +17,7 @@ let balance2 = new Number(100.890);
 
 // ++++++++++++++++++++++++++++++++++++++  Math ++++++++++++++++++++++++++++++++++++++++++++++
 
-console.log(Math);
+// console.log(Math);
 // let num = -4;
 // Methods In Math 
 // Abs always returns the positive Number 
@@ -35,8 +35,20 @@ console.log(Math);
 // Random  No it gives the Random Value between 0 and 1.
 
 
-console.log(((Math.floor(Math.random()*10)+1)));
+// console.log(((Math.floor(Math.random()*10)+1)));
+console.log((Math.floor(Math.random()*10)));
 
+const min = 1;
+const max = 6;
+
+// console.log(Math.random()*(max-min +1) +min);
+// console.log(Math.random()*(max-min +1) +min);
+// console.log(Math.random()*(max-min +1) +min);
+// console.log(Math.random()*(max-min +1) +min);
+// console.log(Math.random()*(max-min +1) +min);
+
+console.log(Math.floor(Math.random()));
+console.log(Math.floor(Math.random()*(max-min)));
 
 
 
