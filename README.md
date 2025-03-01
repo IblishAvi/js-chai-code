@@ -1,2 +1,4 @@
-# js-chai-code
-It a repo to sharpen the javaScript by practices
+# JavaScripts Notes:
+
+                                            Date:
+The Date.parse() static method parses a string representation of a date, and returns the date's timestamp.
