@@ -12,7 +12,12 @@ let customDate2 = new Date("01-14-2025");
 // console.log(customDate2.getDay()); // 2
 // console.log(mydate.getHours()); // 16
 // console.log(mydate.getMinutes()); // 37
-// console.log(customDate.getTime()); 
+// console.log(mydate.getTime());  //1740849654855
+// console.log(mydate.getMilliseconds()); //857
+console.log(mydate.getDate()); // 2 this means Mar 
+console.log(customDate.getTime());
+
+
 
 // console.log(mydate.getTime());
 // Standard date-time string format
@@ -27,12 +32,12 @@ const launchDate = new Date("July 1, 1999, 12:00:00");
 const futureDate = new Date();
 futureDate.setTime(launchDate.getTime());
 
-console.log(futureDate.toUTCString());
+// console.log(futureDate.toUTCString());
 // Expected output: "Thu Jul 01 1999 12:00:00 GMT+0200 (CEST)"
 
 const fiveMinutesInMillis = 5 * 60 * 1000;
 futureDate.setTime(futureDate.getTime() + fiveMinutesInMillis);
 
-console.log(futureDate.toUTCString());
+// console.log(futureDate.toUTCString());
 
 // console.log(futureDate);
