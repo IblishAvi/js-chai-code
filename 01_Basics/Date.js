@@ -14,8 +14,8 @@ let customDate2 = new Date("01-14-2025");
 // console.log(mydate.getMinutes()); // 37
 // console.log(mydate.getTime());  //1740849654855
 // console.log(mydate.getMilliseconds()); //857
-console.log(mydate.getDate()); // 2 this means Mar 
-console.log(customDate.getTime());
+// console.log(mydate.getDate()); // 2 this means Mar 
+// console.log(customDate.getTime());
 
 
 
@@ -41,3 +41,10 @@ futureDate.setTime(futureDate.getTime() + fiveMinutesInMillis);
 // console.log(futureDate.toUTCString());
 
 // console.log(futureDate);
+
+const newdate = new  Date();
+const justdate = newdate.toLocaleString('default',{
+    weekday:'long',
+})
+console.log(justdate);
+let mytimeStamp = Date.now();
