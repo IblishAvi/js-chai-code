@@ -10,7 +10,7 @@ const NewArr = new Array("Avi", "Rupa", "Vivek");
 
 const user = ["Avi","Rishu","Raja","Vivek"]
 const merge = user.join(arr)
-console.log(merge);
+// console.log(merge);
 const newArr = NewArr.concat(user)
 // console.log(newArr);
 // console.log(newArr);
@@ -27,5 +27,11 @@ newArr.splice(1,1,"Neha")
 // console.log(newArr);
 newArr.splice(1,1,"Shreya",'Shubham Pandey')
 // console.log(newArr);
-const Array2 =  newArr.toShorted()
-console.log(Array2);
+// const Array2 =  newArr.toShorted()
+// console.log(Array2);
+
+
+for (const Arr2 of newArr){
+    console.log(Arr2);
+    
+}
