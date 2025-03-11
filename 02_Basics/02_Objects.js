@@ -17,14 +17,20 @@ const JsUser = {
     }
 
 }
-console.log(JsUser);
+// console.log(JsUser);
 // Object.freeze(JsUser)
 JsUser.Age= 30;
-console.log(JsUser);
-console.log(JsUser.Firstname);
+// console.log(JsUser);
+// console.log(JsUser.Firstname);
 
 JsUser.getname = function (){
-    console.log('Avi Js Expert');
+    // console.log('Avi Js Expert');
     
 }
-console.log(JsUser.getname);
+// console.log(JsUser.getname);
+
+const tinderuser = new Object();
+
+tinderuser.id = '123abd';
+tinderuser.email = 'Avi@gmail.com';
+console.log(tinderuser);
