@@ -68,21 +68,23 @@ const userDetail = [
         Location:'Gujarat',
     },
     {
-        id:'123a',
-        name:'Avi',
-        Location:'Gujarat',
+        id:'123b',
+        name:'Avinash',
+        Location:'Ahmedabad',
     },
     {
-        id:'123a',
-        name:'Avi',
-        Location:'Gujarat',
+        id:'123c',
+        name:'Rishu',
+        Location:'Gurgaon',
     },
     {
-        id:'123a',
-        name:'Avi',
-        Location:'Gujarat',
+        id:'123d',
+        name:'Avi Jha',
+        Location:'Noida',
     }
 ]
 
 console.log(userDetail);
+console.log(`${userDetail[0].id}  ${userDetail[0].name}`);
+console.log(`${userDetail[1].id}  ${userDetail[1].name}`);
 
