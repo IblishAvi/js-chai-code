@@ -84,7 +84,21 @@ const userDetail = [
     }
 ]
 
-console.log(userDetail);
-console.log(`${userDetail[0].id}  ${userDetail[0].name}`);
-console.log(`${userDetail[1].id}  ${userDetail[1].name}`);
+// console.log(userDetail);
+// console.log(`${userDetail[0].id}  ${userDetail[0].name}`);
+// console.log(`${userDetail[1].id}  ${userDetail[1].name}`);
 
+
+// console.log(Object.keys(userDetail));
+// console.log(Object.values(userDetail));
+// console.log(Object.keys(obj3));
+// console.log(Object.values(obj3));
+console.log(Object.entries(obj3)); //[ [ '1', 'a' ], [ '2', 'b' ], [ '3', 'c' ], [ '4', 'd' ] ]  Returns the array of Objects.
+console.log(obj3.hasOwnProperty("a")); // false Returns Boolean Values.
+
+const myuser ={
+        usrname :'Avi',
+        course:'Web Development',
+        CourseInstructor:'Hitesh Chaudhary',
+        CourseFee :'999'
+    }
