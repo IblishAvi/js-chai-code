@@ -96,9 +96,12 @@ const userDetail = [
 console.log(Object.entries(obj3)); //[ [ '1', 'a' ], [ '2', 'b' ], [ '3', 'c' ], [ '4', 'd' ] ]  Returns the array of Objects.
 console.log(obj3.hasOwnProperty("a")); // false Returns Boolean Values.
 
-const myuser ={
+const Course ={
         usrname :'Avi',
-        course:'Web Development',
+        CourseName:'Js in Hindi',
         CourseInstructor:'Hitesh Chaudhary',
         CourseFee :'999'
     }
+
+    const {CourseInstructor :instructor} = Course
+    console.log(instructor);
