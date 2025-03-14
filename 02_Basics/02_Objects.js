@@ -105,3 +105,11 @@ const Course ={
 
     const {CourseInstructor :instructor} = Course
     console.log(instructor);
+
+    // JSON Introduction.
+
+    {
+        "Name" : "Avi",
+        "CourseName" : "Javascript in Hindi",
+        "Price":"Free"
+    }
