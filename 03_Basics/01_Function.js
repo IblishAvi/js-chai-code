@@ -10,8 +10,22 @@ function restFunc(...num1){
 
 console.log(restFunc(200,300,400));
 
-const users = {
-    username:'Avi',
-    id:'00123a',
+const userDetail = {
+    name:"Avi",
+    Email:'Avi@gmail.com',
+    ID :'adfmll1434'
+}
+
+function Details(anyObject){
+console.log(anyObject.name);
+console.log(anyObject.Email);
+
 
 }
+Details(userDetail)
+
+// Arrow Function 
+
+const gases =['nitrogen','hydrogen','Ammonia']
+
+const a2 = gases.map((s)=> console.log(s.length))
