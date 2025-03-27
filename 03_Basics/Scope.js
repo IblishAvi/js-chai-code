@@ -42,3 +42,18 @@ if(true){
     
 }
 // console.log(usernam); // it has Block scope
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++ Hoistiong intro ++++++++++++++++++++++
+
+console.log(addone(7));
+function addone(num){
+    return num+1;
+}
+addone(5)
+
+// Anonymous Function or unnamed Function.
+const addtwo = function(num){
+    return num+2;
+}
+console.log(addtwo(10));
