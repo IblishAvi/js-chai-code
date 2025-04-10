@@ -42,29 +42,54 @@
 
 // break and Continue
 
-for (let index = 1; index < 10; index++) {
-    if(index == 5){
-        console.log(`Value found ${index}`);
-        break
+// for (let index = 1; index < 10; index++) {
+//     if(index == 5){
+//         console.log(`Value found ${index}`);
+//         break
         
-    }
-     console.log(index);
-}
+//     }
+//      console.log(index);
+// }
 
-for (let index = 1; index < 10; index++) {
-    if(index == 5){
-        console.log(`Value skipped ${index}`);
-        continue
+// for (let index = 1; index < 10; index++) {
+//     if(index == 5){
+//         console.log(`Value skipped ${index}`);
+//         continue
         
-    }
-    console.log(index);
+//     }
+//     console.log(index);
     
-}
+// }
 
-const myArray = [ 'Avi', 26 ," male", "avi@gmail.com"]
+// const myArray = [ 'Avi', 26 ," male", "avi@gmail.com"]
 
-for (let index = 0; index < myArray.length; index++) {
-    const element = myArray[index];
-    console.table(element);
+// for (let index = 0; index < myArray.length; index++) {
+//     const element = myArray[index];
+//     console.table(element);
+    
+// }
+
+
+const BinarySearch = [10,20,25,40,45,50];
+
+let start = 0;
+let end = BinarySearch.length;
+let mid = (start + end)/2;
+const  input = 20;
+
+
+for (let i = 0; i< BinarySearch.length; i++) {
+    if(input>mid){
+        start = BinarySearch[mid]+1;
+        BinarySearch[mid] = (start+end)/2
+    }
+    else if(input< mid)
+    {
+        BinarySearch[end] = mid -1;
+        mid = (start+end)/2
+    }
+    else{
+    console.log(mid);
+    }
     
 }
